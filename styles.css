@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.logo {
+    /* order: 1; */
+    align-self: flex-start;
+    margin-right: auto;
+    color: #3882F6;
+    margin-top: 5px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.top-links {
+    display: flex;
+    align-self: flex-start;
+    order: 3;
+    margin-left: auto;
+    margin-top: 0px;
+    margin: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.top-links button {
+    margin-left: 5px;
+    color: #F9FAF8;
+    background-color: transparent;
+    background: transparent;
+}
+
+.header-texts,
+.signup-button {
+    order: 2;
+    flex-grow: 1;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+.signup-button button {
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.show-image {
+    max-height: 200px;
+    margin-left: auto;
+    margin-bottom: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.movie-container {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.movie-poster {
+    max-height: 200px;
+    width: auto;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.movie-poster-info {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #3882F6;
+    width: 800px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.rectangle-text {
+    text-align: left;
+}
+
+.rectangle-button {
+    margin-left: auto;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    background-color: transparent;
+}
+
+.top-links button {
+    background-color: transparent;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 20px;
+    margin-top: 20px;
+    font: italic;
+}
+
+footer {
+    background-color: #1f2937;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    color: white;
+    bottom: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
